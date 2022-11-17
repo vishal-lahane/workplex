@@ -106,7 +106,7 @@ const Footer = () => {
                   <h4 className="widget_title">About Company</h4>
                   <ul className="footer-menu">
                     <li>
-                      <a href="#">Who We'r?</a>
+                      <a href="#">Who We&apos;r?</a>
                     </li>
                     <li>
                       <a href="#">Our Mission</a>
@@ -138,7 +138,7 @@ const Footer = () => {
                       <a href="#">Contact</a>
                     </li>
                     <li>
-                      <a href="#">FAQ's Page</a>
+                      <a href="#">FAQ&apos;s Page</a>
                     </li>
                     <li>
                       <a href="#">Privacy</a>

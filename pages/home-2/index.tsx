@@ -91,8 +91,11 @@ const Home2 = () => {
             <div className="col-xl-10 col-lg-11 col-md-12 col-sm-12">
               <div className="row justify-content-center">
                 {companiesWithJob.map((j) => (
-                  <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-                    <CompaniesWithJobCard {...j} key={j.id} />
+                  <div
+                    className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12"
+                    key={j.id}
+                  >
+                    <CompaniesWithJobCard {...j} />
                   </div>
                 ))}
               </div>

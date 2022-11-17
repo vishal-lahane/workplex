@@ -7,8 +7,8 @@ const JobSearchGridView = () => {
     <>
       <div className="row align-items-center">
         {jobs.map((j) => (
-          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <JobSearchCard {...j} key={j.id} />
+          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={j.id}>
+            <JobSearchCard {...j} />
           </div>
         ))}
       </div>

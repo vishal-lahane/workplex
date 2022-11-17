@@ -17,8 +17,8 @@ const HomePagePackages = () => {
           </div>
           <div className="row align-items-center">
             {packages.map((p) => (
-              <div className="col-lg-4 col-md-4">
-                <Package {...p} key={p.id} />
+              <div className="col-lg-4 col-md-4" key={p.id}>
+                <Package {...p} />
               </div>
             ))}
           </div>

@@ -199,8 +199,8 @@ export default function Home() {
 
           <div className="row justify-content-center">
             {blogs.map((b) => (
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <BlogCard {...b} key={b.id} />
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={b.id}>
+                <BlogCard {...b} />
               </div>
             ))}
           </div>
