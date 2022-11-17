@@ -1,0 +1,23 @@
+/*======================================
+
+=======================================*/
+.submenu-con:hover + .nav-dropdown,
+.nav-dropdown:hover {
+  right: auto;
+  display: block;
+}
+
+.home__1 {
+  background: #00ab46 url(../public/img/banner-2.webp) no-repeat;
+}
+
+.subs-sec {
+  background: #03343b url(../public/img/landing-bg.png) no-repeat;
+}
+
+.home__2 {
+  background: #00ab46 url(../public/img/banner-5.webp) no-repeat;
+}
+.company__sec {
+  background: #00ab46 url(../public/img/curve.svg) no-repeat;
+}
