@@ -1,10 +1,25 @@
 import Image from "next/image";
-import React from "react";
+import { useEffect, useState } from "react";
 import Logo from "../public/img/logo.png";
 const Navbar = () => {
+  const [topFixed, setTopFixed] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setTopFixed(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <>
-      <div className="header header-light dark-text">
+      <div
+        className={
+          topFixed
+            ? "header header-light dark-text header-fixed"
+            : "header header-light dark-text"
+        }
+      >
         <div className="container">
           <nav id="navigation" className="navigation navigation-landscape">
             <div className="nav-header">

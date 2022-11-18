@@ -1,14 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import JobSearchGridView from "../../components/JobSearchGridView";
 import JobSearchListView from "../../components/JobSearchListView";
 
 const JobSearchV2 = () => {
-  const [jobGridView, setJobGridView] = useState(true);
-  const [gridViewActive, setGridViewActive] = useState(true);
-  const [listViewActive, setListViewActive] = useState(false);
+  const [jobGridView, setJobGridView] = useState<boolean>(true);
+  const [gridViewActive, setGridViewActive] = useState<boolean>(true);
+  const [listViewActive, setListViewActive] = useState<boolean>(false);
+
+  const [topFixed, setTopFixed] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setTopFixed(window.scrollY > 70);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <>
-      <div className="py-3 theme-bg searchingBar">
+      <div
+        className={
+          topFixed
+            ? "py-3 theme-bg searchingBar fixedSearching"
+            : "py-3 theme-bg searchingBar"
+        }
+      >
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-7 col-lg-9 col-md-9 col-sm-12 col-12">
