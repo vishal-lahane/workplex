@@ -1,13 +1,12 @@
 import Head from "next/head";
 import React from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
-import NewsLettSubscription from "./NewsLettSubscription";
-
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import NewsLettSubscription from "../components/NewsLettSubscription";
 interface Props {
   children: any;
 }
-const Layout = ({ children }: Props) => {
+const WebsiteLayout = ({ children }: Props) => {
   return (
     <>
       <Head>
@@ -22,4 +21,4 @@ const Layout = ({ children }: Props) => {
   );
 };
 
-export default Layout;
+export default WebsiteLayout;
