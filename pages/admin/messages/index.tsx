@@ -265,7 +265,7 @@ const Messages = () => {
                           <div className="dash-msg-text">
                             <p>
                               If you are going to use a passage of Lorem Ipsum,
-                              you need to be sure there isn't anything
+                              you need to be sure there isn&apos;t anything
                               embarrassing
                             </p>
                           </div>
