@@ -235,10 +235,7 @@ const Messages = () => {
                       <div className="dash-msg-content">
                         <div className="message-plunch">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://image.flaticon.com/icons/png/512/145/145849.png"
-                              alt=""
-                            />
+                            <Image src={t2} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
@@ -251,10 +248,7 @@ const Messages = () => {
 
                         <div className="message-plunch me">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://via.placeholder.com/400x400"
-                              alt=""
-                            />
+                            <Image src={t5} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
@@ -266,10 +260,7 @@ const Messages = () => {
 
                         <div className="message-plunch">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://image.flaticon.com/icons/png/512/145/145849.png"
-                              alt=""
-                            />
+                            <Image src={t2} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
@@ -282,10 +273,7 @@ const Messages = () => {
 
                         <div className="message-plunch me">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://via.placeholder.com/400x400"
-                              alt=""
-                            />
+                            <Image src={t5} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
@@ -297,10 +285,7 @@ const Messages = () => {
 
                         <div className="message-plunch">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://image.flaticon.com/icons/png/512/145/145849.png"
-                              alt=""
-                            />
+                            <Image src={t2} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
@@ -312,10 +297,7 @@ const Messages = () => {
 
                         <div className="message-plunch me">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://via.placeholder.com/400x400"
-                              alt=""
-                            />
+                            <Image src={t5} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
@@ -327,10 +309,7 @@ const Messages = () => {
 
                         <div className="message-plunch">
                           <div className="dash-msg-avatar">
-                            <img
-                              src="https://image.flaticon.com/icons/png/512/145/145849.png"
-                              alt=""
-                            />
+                            <Image src={t2} alt="" />
                           </div>
                           <div className="dash-msg-text">
                             <p>
