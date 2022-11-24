@@ -82,7 +82,7 @@ const CreateResume = () => {
                             <input
                               type="email"
                               className="form-control rounded"
-                              value="uppcl@gmail.com"
+                              placeholder="uppcl@gmail.com"
                             />
                           </div>
                         </div>

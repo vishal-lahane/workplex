@@ -39,13 +39,13 @@ const AlertJobs = () => {
                         <td>
                           <div className="dash-action">
                             <a
-                              href="javascript:void(0);"
+                              href="#"
                               className="p-2 circle text-info bg-light-info d-inline-flex align-items-center justify-content-center mr-1"
                             >
                               <i className="lni lni-eye"></i>
                             </a>
                             <a
-                              href="javascript:void(0);"
+                              href="#"
                               className="p-2 circle text-danger bg-light-danger d-inline-flex align-items-center justify-content-center ml-1"
                             >
                               <i className="lni lni-trash-can"></i>

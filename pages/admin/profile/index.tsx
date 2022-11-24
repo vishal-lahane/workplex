@@ -48,7 +48,7 @@ const Profile = () => {
                             <input
                               type="text"
                               className="form-control rounded"
-                              value="Full Name"
+                              placeholder="Full Name"
                             />
                           </div>
                         </div>
@@ -60,7 +60,7 @@ const Profile = () => {
                             <input
                               type="text"
                               className="form-control rounded"
-                              value="Job Name"
+                              placeholder="Job Name"
                             />
                           </div>
                         </div>
@@ -70,7 +70,7 @@ const Profile = () => {
                             <input
                               type="text"
                               className="form-control rounded"
-                              value="Phone"
+                              placeholder="Phone"
                             />
                           </div>
                         </div>
@@ -80,7 +80,7 @@ const Profile = () => {
                             <input
                               type="email"
                               className="form-control rounded"
-                              value="uppcl@gmail.com"
+                              placeholder="uppcl@gmail.com"
                             />
                           </div>
                         </div>
@@ -134,7 +134,7 @@ const Profile = () => {
                             <input
                               type="text"
                               className="form-control rounded"
-                              value="Education"
+                              placeholder="Education"
                             />
                           </div>
                         </div>
@@ -183,7 +183,7 @@ const Profile = () => {
                             <input
                               type="email"
                               className="form-control rounded"
-                              value="e.x Englisg, Hindi"
+                              placeholder="e.x Englisg, Hindi"
                             />
                           </div>
                         </div>
@@ -192,12 +192,7 @@ const Profile = () => {
                             <label className="text-dark ft-medium">
                               About Info
                             </label>
-                            <textarea className="form-control with-light">
-                              At vero eos et accusamus et iusto odio dignissimos
-                              ducimus qui blanditiis praesentium voluptatum
-                              deleniti atque corrupti quos dolores et quas
-                              molestias excepturi
-                            </textarea>
+                            <textarea className="form-control with-light"></textarea>
                           </div>
                         </div>
 

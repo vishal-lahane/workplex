@@ -32,7 +32,7 @@ const Packages = () => {
                         </td>
                         <td>#WKPL12363</td>
                         <td>
-                          <a href="javascript:void(0);" className="theme-cl">
+                          <a href="#" className="theme-cl">
                             Silver Pack
                           </a>
                         </td>

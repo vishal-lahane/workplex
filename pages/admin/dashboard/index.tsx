@@ -157,10 +157,7 @@ const Dashboard = () => {
                       <li>Date: 01/08/2019</li>
                     </ul>
                     <div className="buttons-to-right">
-                      <a
-                        href="javascript:void(0);"
-                        className="button text-light bg-warning"
-                      >
+                      <a href="#" className="button text-light bg-warning">
                         View Invoice
                       </a>
                     </div>
@@ -175,10 +172,7 @@ const Dashboard = () => {
                       <li>Date: 01/07/2019</li>
                     </ul>
                     <div className="buttons-to-right">
-                      <a
-                        href="javascript:void(0);"
-                        className="button text-light bg-warning"
-                      >
+                      <a href="#" className="button text-light bg-warning">
                         View Invoice
                       </a>
                     </div>
@@ -195,10 +189,7 @@ const Dashboard = () => {
                       <li>Date: 01/06/2019</li>
                     </ul>
                     <div className="buttons-to-right">
-                      <a
-                        href="javascript:void(0);"
-                        className="button text-light bg-warning"
-                      >
+                      <a href="#" className="button text-light bg-warning">
                         View Invoice
                       </a>
                     </div>
@@ -215,10 +206,7 @@ const Dashboard = () => {
                       <li>Date: 01/05/2019</li>
                     </ul>
                     <div className="buttons-to-right">
-                      <a
-                        href="javascript:void(0);"
-                        className="button text-light bg-warning"
-                      >
+                      <a href="#" className="button text-light bg-warning">
                         View Invoice
                       </a>
                     </div>
@@ -235,10 +223,7 @@ const Dashboard = () => {
                       <li>Date: 01/04/2019</li>
                     </ul>
                     <div className="buttons-to-right">
-                      <a
-                        href="javascript:void(0);"
-                        className="button text-light bg-warning"
-                      >
+                      <a href="#" className="button text-light bg-warning">
                         View Invoice
                       </a>
                     </div>
@@ -255,10 +240,7 @@ const Dashboard = () => {
                       <li>Date: 01/03/2019</li>
                     </ul>
                     <div className="buttons-to-right">
-                      <a
-                        href="javascript:void(0);"
-                        className="button text-light bg-warning"
-                      >
+                      <a href="#" className="button text-light bg-warning">
                         View Invoice
                       </a>
                     </div>
