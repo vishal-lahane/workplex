@@ -93,10 +93,10 @@ const Navbar = () => {
                       <a href="home-6.html">Home 6</a>
                     </li>
                     <li>
-                      <a href="/home-7">Home 7</a>
+                      <Link href="/home-7">Home 7</Link>
                     </li>
                     <li>
-                      <a href="/home-8">Home 8</a>
+                      <Link href="/home-8">Home 8</Link>
                     </li>
                   </ul>
                 </li>

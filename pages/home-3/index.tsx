@@ -162,7 +162,7 @@ const Home3 = () => {
                     <h2 className="ft-bold mb-3">
                       Get All The Jobs Details
                       <br />
-                      You're Looking For
+                      You&apos;re Looking For
                     </h2>
                     <p className="mb-3">
                       Sed ut perspiciatis unde omnis iste natus error sit
