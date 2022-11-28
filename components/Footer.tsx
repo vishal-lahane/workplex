@@ -1,16 +1,26 @@
 import Image from "next/image";
 import Logo from "../public/img/logo.png";
-const Footer = () => {
+import LogoLight from "../public/img/logo-light.png";
+interface Props {
+  fType: string;
+}
+const Footer = ({ fType }: Props) => {
   return (
     <>
-      <footer className="light-footer skin-light-footer style-2">
+      <footer
+        className={
+          fType === "light"
+            ? "light-footer skin-light-footer style-2"
+            : "dark-footer skin-dark-footer style-2"
+        }
+      >
         <div className="footer-middle">
           <div className="container">
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                 <div className="footer_widget">
                   <Image
-                    src={Logo}
+                    src={fType === "light" ? Logo : LogoLight}
                     style={{ height: "auto" }}
                     className="img-footer small mb-2"
                     alt=""

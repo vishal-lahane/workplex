@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Logo from "../public/img/logo.png";
 const Navbar = () => {
@@ -23,14 +24,14 @@ const Navbar = () => {
         <div className="container">
           <nav id="navigation" className="navigation navigation-landscape">
             <div className="nav-header">
-              <a className="nav-brand" href="#">
+              <Link className="nav-brand" href="/">
                 <Image
                   src={Logo}
                   className="logo"
                   style={{ height: "auto" }}
                   alt=""
                 />
-              </a>
+              </Link>
               <div className="nav-toggle"></div>
               <div className="mobile_nav">
                 <ul>
@@ -74,28 +75,28 @@ const Navbar = () => {
 
                   <ul className="nav-dropdown nav-submenu">
                     <li>
-                      <a href="index.html">Home 1</a>
+                      <Link href="/">Home 1</Link>
                     </li>
                     <li>
-                      <a href="home-2.html">Home 2</a>
+                      <Link href="/home-2">Home 2</Link>
                     </li>
                     <li>
-                      <a href="home-3.html">Home 3</a>
+                      <Link href="/home-3">Home 3</Link>
                     </li>
                     <li>
-                      <a href="home-4.html">Home 4</a>
+                      <Link href="/home-4">Home 4</Link>
                     </li>
                     <li>
-                      <a href="home-5.html">Home 5</a>
+                      <Link href="/home-5">Home 5</Link>
                     </li>
                     <li>
                       <a href="home-6.html">Home 6</a>
                     </li>
                     <li>
-                      <a href="home-7.html">Home 7</a>
+                      <a href="/home-7">Home 7</a>
                     </li>
                     <li>
-                      <a href="home-8.html">Home 8</a>
+                      <a href="/home-8">Home 8</a>
                     </li>
                   </ul>
                 </li>

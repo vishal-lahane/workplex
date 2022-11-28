@@ -47,3 +47,7 @@ export interface CompWithJobCard {
   companyName: string;
   jobs: number;
 }
+
+export interface CandidateCard {
+  name: string;
+}

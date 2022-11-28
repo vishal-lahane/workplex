@@ -1,5 +1,6 @@
 import {
   BlogCard,
+  CandidateCard,
   CatCard,
   CompWithJobCard,
   JobCard,
@@ -306,5 +307,32 @@ export const companiesWithJob: CompWithJobCard[] = [
     logo: l7,
     companyName: "Web Designing",
     jobs: 302,
+  },
+];
+
+export const candidates: CandidateCard[] = [
+  {
+    name: "John K. Surber",
+  },
+  {
+    name: "Loretta E. Reyes",
+  },
+  {
+    name: "Adam B. Johnston",
+  },
+  {
+    name: "Jessica G. Leininger",
+  },
+  {
+    name: "Charles T. Gerena",
+  },
+  {
+    name: "Julie D. Morales",
+  },
+  {
+    name: "Samantha D. Hebert",
+  },
+  {
+    name: "Patricia B. North",
   },
 ];

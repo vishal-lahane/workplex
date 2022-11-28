@@ -1,7 +1,16 @@
-const NewsLettSubscription = () => {
+interface Props {
+  fType: string;
+}
+const NewsLettSubscription = ({ fType }: Props) => {
   return (
     <>
-      <section className="space bg-cover subs-sec">
+      <section
+        className={
+          fType === "light"
+            ? "space bg-cover subs-sec-dark"
+            : "space bg-cover subs-sec-light"
+        }
+      >
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">

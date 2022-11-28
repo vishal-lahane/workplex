@@ -11,8 +11,12 @@
   background: #00ab46 url(../public/img/banner-2.webp) no-repeat;
 }
 
-.subs-sec {
+.subs-sec-dark {
   background: #03343b url(../public/img/landing-bg.png) no-repeat;
+}
+
+.subs-sec-light {
+  background: #28b661 url(../public/img/landing-bg.png) no-repeat;
 }
 
 .home__2 {
@@ -20,4 +24,13 @@
 }
 .company__sec {
   background: #00ab46 url(../public/img/curve.svg) no-repeat;
+}
+.home__3 {
+  background: #28b661 url(../public/img/banner-4.webp) no-repeat;
+}
+.home__4 {
+  background: #28b661 url(../public/img/banner-6.webp) no-repeat;
+}
+.home__7 {
+  background: #eff6f2 url(../public/img/banner-3.webp) no-repeat;
 }

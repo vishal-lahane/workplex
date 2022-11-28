@@ -5,8 +5,9 @@ import Navbar from "../components/Navbar";
 import NewsLettSubscription from "../components/NewsLettSubscription";
 interface Props {
   children: any;
+  footerType?: string;
 }
-const WebsiteLayout = ({ children }: Props) => {
+const WebsiteLayout = ({ children, footerType = "light" }: Props) => {
   return (
     <>
       <Head>
@@ -15,8 +16,8 @@ const WebsiteLayout = ({ children }: Props) => {
       </Head>
       <Navbar />
       {children}
-      <NewsLettSubscription />
-      <Footer />
+      <NewsLettSubscription fType={footerType} />
+      <Footer fType={footerType} />
     </>
   );
 };

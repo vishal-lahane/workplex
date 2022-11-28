@@ -1,27 +1,23 @@
 import Image from "next/image";
-import { blogs, partnerLogos } from "../StaticData/homePage";
-import ProfSecImage from "../public/img/bn-5.webp";
-import appImage from "../public/img/app.webp";
-import iosMark from "../public/img/ios.png";
-import andMark from "../public/img/and.png";
-import PartnerLogo from "../components/PartnerLogo";
-import BlogCard from "../components/BlogCard";
-import HomePageJobList from "../components/HomePageJobList";
-import HomePageCategoryList from "../components/HomePageCategoryList";
-import HomePagePackages from "../components/HomePagePackages";
-import WebsiteLayout from "../layouts/WebsiteLayout";
-
-export default function Home() {
+import HomePageCategoryList from "../../components/HomePageCategoryList";
+import HomePageJobList from "../../components/HomePageJobList";
+import WebsiteLayout from "../../layouts/WebsiteLayout";
+import ProfSecImage from "../../public/img/bn-5.webp";
+import AboutSecImage from "../../public/img/bn-4.webp";
+import { blogs, partnerLogos } from "../../StaticData/homePage";
+import PartnerLogo from "../../components/PartnerLogo";
+import BlogCard from "../../components/BlogCard";
+const Home3 = () => {
   return (
     <>
-      <WebsiteLayout>
-        <div className="home-banner margin-bottom-0 home__1" data-overlay="5">
+      <WebsiteLayout footerType="dark">
+        <div className="home-banner margin-bottom-0 home__3" data-overlay="4">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-11 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="banner_caption text-center mb-5">
                   <h1 className="banner_title ft-bold mb-1">
-                    <span className="count">72412</span> jobs Listed Here!
+                    The Most Exciting Jobs
                   </h1>
                   <p className="fs-md ft-medium">Your Dream Jobs is Waiting</p>
                 </div>
@@ -73,27 +69,13 @@ export default function Home() {
                     </div>
                   </div>
                 </form>
-
-                <div className="text-center align-items-center justify-content-center mt-5">
-                  <a
-                    href="#"
-                    className="btn bg-white hover-theme ft-regular mr-1"
-                  >
-                    <i className="lni lni-user mr-1"></i>Create Account
-                  </a>
-                  <a
-                    href="#"
-                    className="btn bg-dark hover-theme text-light ft-regular ml-1"
-                  >
-                    <i className="lni lni-upload mr-1"></i>Upload Resume
-                  </a>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <HomePageJobList />
         <HomePageCategoryList />
+
         <section className="space">
           <div className="container">
             <div className="row align-items-center justify-content-between">
@@ -159,6 +141,90 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="space pt-0">
+          <div className="container">
+            <div className="row align-items-center justify-content-between">
+              <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <div className="position-relative">
+                  <Image src={AboutSecImage} className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div className="m-spaced">
+                  <div className="position-relative">
+                    <div className="mb-1">
+                      <span className="theme-bg-light theme-cl px-2 py-1 rounded">
+                        About Us
+                      </span>
+                    </div>
+                    <h2 className="ft-bold mb-3">
+                      Get All The Jobs Details
+                      <br />
+                      You're Looking For
+                    </h2>
+                    <p className="mb-3">
+                      Sed ut perspiciatis unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium, totam rem
+                      aperiam, eaque ipsa quae ab illo inventore veritatis et
+                      quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                  </div>
+                  <div className="position-relative row">
+                    <div className="col-lg-12 col-md-12 col-12">
+                      <div className="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                        <div className="d-flex align-items-center">
+                          <div className="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                            <i className="fas fa-check"></i>
+                          </div>
+                          <h6 className="mb-0 ml-3">Full lifetime access</h6>
+                        </div>
+                      </div>
+                      <div className="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                        <div className="d-flex align-items-center">
+                          <div className="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                            <i className="fas fa-check"></i>
+                          </div>
+                          <h6 className="mb-0 ml-3">
+                            20+ downloadable resources
+                          </h6>
+                        </div>
+                      </div>
+                      <div className="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                        <div className="d-flex align-items-center">
+                          <div className="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                            <i className="fas fa-check"></i>
+                          </div>
+                          <h6 className="mb-0 ml-3">
+                            Certificate of completion
+                          </h6>
+                        </div>
+                      </div>
+                      <div className="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                        <div className="d-flex align-items-center">
+                          <div className="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                            <i className="fas fa-check"></i>
+                          </div>
+                          <h6 className="mb-0 ml-3">Free Trial 7 Days</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12 col-md-12 col-12 mt-4">
+                      <a
+                        href="#"
+                        className="btn btn-md theme-bg rounded text-white hover-theme"
+                      >
+                        Get Started
+                        <i className="lni lni-arrow-right-circle ml-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="p-0">
           <div className="container">
             <div className="row justify-content-center">
@@ -180,8 +246,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <HomePagePackages />
-        <section className="space min gray">
+        <section className="space min">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -204,59 +269,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                <div className="content_block_2 pr-3 py-4">
-                  <div className="content-box">
-                    <div className="sec-title light">
-                      <p className="theme-cl px-3 py-1 rounded bg-light-success d-inline-flex">
-                        Download apps
-                      </p>
-                      <h2 className="ft-bold">
-                        Get the Workplex Job
-                        <br />
-                        Search App
-                      </h2>
-                    </div>
-                    <div className="text">
-                      <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi architecto accusantium.
-                      </p>
-                    </div>
-                    <div className="btn-box clearfix mt-5">
-                      <a
-                        href="index.html"
-                        className="download-btn play-store mb-1 d-inline-flex"
-                      >
-                        <Image src={iosMark} width="200" alt="" />
-                      </a>
-                      <a
-                        href="index.html"
-                        className="download-btn play-store ml-2 mb-1 d-inline-flex"
-                      >
-                        <Image src={andMark} width="200" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                <div className="image-box">
-                  <figure className="image">
-                    <Image src={appImage} className="img-fluid" alt="" />
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </WebsiteLayout>
     </>
   );
-}
+};
+
+export default Home3;
