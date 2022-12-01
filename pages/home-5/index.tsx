@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import CandidateSearchResultSearchCard from "../../components/CandidateSearchResultSearchCard";
+import MultiSlideCarousel from "../../components/carousel/MultiSlideCarousel";
 import HomePageCategoryList from "../../components/HomePageCategoryList";
 import HomePageJobList from "../../components/HomePageJobList";
 import JobSearchListView from "../../components/JobSearchListView";
@@ -184,6 +185,21 @@ const Home5 = () => {
         </section>
         <HomePageCategoryList />
         <HomePageJobList />
+        <section className="middle gray">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div className="sec_title position-relative text-center mb-5">
+                  <h6 className="text-muted mb-0">Our Reviews</h6>
+                  <h2 className="ft-bold">
+                    What Our Customer <span className="theme-cl">Saying</span>
+                  </h2>
+                </div>
+              </div>
+              <MultiSlideCarousel />
+            </div>
+          </div>
+        </section>
         <section className="space min">
           <div className="container">
             <div className="row justify-content-center">

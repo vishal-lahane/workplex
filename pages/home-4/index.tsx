@@ -1,4 +1,5 @@
 import BlogCard from "../../components/BlogCard";
+import SingleCarousel from "../../components/carousel/SingleCarousel";
 import CompaniesWithJobCard from "../../components/CompaniesWithJobCard";
 import HomePageCategoryList from "../../components/HomePageCategoryList";
 import HomePageJobList from "../../components/HomePageJobList";
@@ -123,6 +124,21 @@ const Home4 = () => {
             </div>
           </div>
           <div className="ht-50"></div>
+        </section>
+        <section className="middle">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div className="sec_title position-relative text-center mb-5">
+                  <h6 className="text-muted mb-0">Our Reviews</h6>
+                  <h2 className="ft-bold">
+                    What Our Customer <span className="theme-cl">Saying</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <SingleCarousel />
+          </div>
         </section>
         <section className="space min">
           <div className="container">
