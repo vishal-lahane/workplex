@@ -6,7 +6,7 @@ import t3 from "../../public/img/blogs/team-3.webp";
 import t5 from "../../public/img/blogs/team-5.webp";
 
 const SingleCarousel = () => {
-  const [sliderRef, setSliderRef] = useState(null);
+  const [sliderRef, setSliderRef] = useState<any>(null);
   const sliderSettings = {
     slidesToShow: 1,
     slidesToScroll: 1,
